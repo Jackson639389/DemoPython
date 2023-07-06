@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block contents %}
+are you sure done the process?
+<form method="post">
+    {% csrf_token %}
+<button type="submit">yes</button>
+    <button type="submit">no</button>
+</form>
+{% endblock %}

@@ -1,0 +1,24 @@
+.banner{
+background-color:BlueViolet;
+font-family:Arial Black;
+width:100%;
+height:150px;
+margin-top:10px;
+}
+.banner-text{
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  transform:transform;
+  position:absolute;
+  top:10%;
+  left:25%;
+
+}
+h4{
+font-family:Rockwell Extra Bold;
+color:red;
+}
+h5{
+font-family:Impact;
+}
